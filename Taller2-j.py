@@ -7,3 +7,9 @@ s=4
 if s!=5:
     s=a*2
 print(s)
+
+def verificar_mayor_10(a:int):
+    if a>10:
+        return True
+    else:
+        return False
