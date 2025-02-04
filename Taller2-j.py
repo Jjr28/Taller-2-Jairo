@@ -13,3 +13,10 @@ def verificar_mayor_10(a:int):
         return True
     else:
         return False
+    
+   
+def guardar_letras(nombre: str):
+    letras = []
+    for letra in nombre:
+        letras.append(letra)
+    return letras
